@@ -1,0 +1,146 @@
+.item1 {
+  background: rgb(252, 123, 155);
+  padding-top: 4px;
+}
+.item2 {
+  background: rgb(255, 149, 122);
+  padding-top: 4px;
+}
+.item3 {
+  background: rgb(250, 176, 107);
+  padding-top: 4px;
+}
+.item4 {
+  background: #fadd5d;
+  padding-top: 4px;
+}
+.item5 {
+  background: #edf052;
+  padding-top: 4px;
+}
+body {
+  background-color: black;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1900px;
+}
+h1 {
+  color: white;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+  margin-top: 0;
+}
+
+.descript {
+  color: white;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+.container {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Anton", sans-serif, "Arial Narrow Bold", sans-serif;
+  min-height: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+  margin-bottom: 70px;
+}
+
+a {
+  color: yellow;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+}
+.mainArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.photoPhone {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  justify-self: center;
+}
+
+.text {
+  color: white;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 40px;
+  margin: 0;
+}
+.secondArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .descript {
+    font-size: 30px;
+    margin-bottom: 45px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+  .mainArea {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .button {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .photo {
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .descript {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  body {
+    padding: 8px;
+  }
+  h1 {
+    padding-top: 10px;
+  }
+  .text {
+    padding-left: 20px;
+  }
+  .secondArea {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+}
